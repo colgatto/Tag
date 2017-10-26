@@ -1,4 +1,4 @@
-### Tag (simple PHP interface for HTML)
+# Tag (simple PHP interface for HTML)
 
 ## Usage
 
@@ -80,8 +80,6 @@ this is just a simple example, the code down here has the same output
 
 use only one variable by passing key => value array and locate desired element using f()  
 ```php
-include 'Tag.php';
-
 $html = new Tag('html','',array(
 	'head' => new Tag('head'),
 	'body' => new Tag('body','',array(
@@ -107,8 +105,6 @@ echo $html;
 
 no variable, no append, just one big single expression 
 ```php
-include 'Tag.php';
-
 echo new Tag('html','',array(
 	new Tag('head'),
 	new Tag('body','',array(
@@ -125,8 +121,6 @@ echo new Tag('html','',array(
 
 mixed style, use what you want wherever you like it
 ```php
-include 'Tag.php';
-
 $html = new Tag('html','',array(
 	new Tag('head'),
 	new Tag('body','',array(
