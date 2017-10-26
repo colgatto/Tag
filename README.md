@@ -1,4 +1,4 @@
-# Tag (simple PHP interface for HTML)
+# Tag (simple HTML interface for PHP)
 
 ## Usage
 
