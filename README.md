@@ -1,7 +1,5 @@
 # Tag (simple HTML interface for PHP)
 
-[![HitCount](http://hits.dwyl.io/colgatto/Tag.svg)](http://hits.dwyl.io/colgatto/Tag)
-
 ## Usage
 
 just include Tag.php in your code
